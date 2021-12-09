@@ -1,0 +1,203 @@
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.netflix-logo {
+  padding: 20px 0px 20px 20px !important;
+  width: 190px;
+
+}
+
+.form-1 {
+  width: 450px;
+  height: 668px;
+  background-color: rgba(0, 0, 0, 0.75);
+  margin: 0px auto;
+  padding: 60px 68px 40px;
+}
+
+.body-1 {
+  background-image: url(../img/netflix-inicio.jpg);
+  width: 100%;
+  background-size: cover;
+}
+
+.body-2 {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
+h1 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+
+.input {
+  background: #333;
+  border-radius: 4px;
+  border: 0;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  padding: 1px 20px 0;
+  width: 100%;
+  font-size: 16px;
+  outline: none;
+  margin-bottom: -8px;
+}
+
+.error {
+  color: #e87c03;
+  font-size: 12px;
+  margin-top: -15px;
+  margin-bottom: 0px;
+  padding: 6px 3px;
+  display: none;
+
+}
+
+.bt {
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 24px 0 12px;
+  width: 100%;
+  padding: 12px;
+  background: #e50914;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.55);
+  border: 0px;
+  color: #fff;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.check {
+  color: #737373;
+}
+
+.remember {
+  color: #b3b3b3;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.need-help {
+  cursor: pointer;
+  color: #b3b3b3;
+  font-size: 13px;
+  font-weight: 500;
+  padding-top: 2px;
+  outline: 0;
+  text-decoration: none;
+}
+
+.need-help:hover {
+  text-decoration: underline;
+}
+
+.div-f {
+  margin-top: 40px;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+}
+
+.facebook {
+  color: #737373;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  letter-spacing: 0.1px;
+  text-align: center;
+}
+
+.div-n {
+  margin-top: 14px;
+  margin-bottom: 10px;
+}
+
+.new {
+  color: #737373;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 16px;
+}
+
+.new-login {
+  color: #fff;
+  outline: 0;
+  text-decoration: none;
+}
+
+.new-login:hover {
+  text-decoration: underline;
+}
+
+.this {
+  font-size: 13px;
+  color: #8c8c8c;
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+.fin {
+  overflow: visible;
+  text-decoration: none;
+}
+
+.footer{
+    margin-top: 100px;
+    width: 100%;
+}
+
+
+/* Estilos para validacion */
+
+
+
+.formulario__grupo-incorrecto .formulario__input{
+  border-bottom: 2px solid #e87c03;
+
+}
+
+
+
+.formulario__grupo-incorrecto .error {
+    color: #e87c03;
+    display: block;
+    margin-top: 8px;
+    margin-bottom: -12px;
+}
+
+@media screen and (max-width: 600px) {
+  .form-1 {
+    padding: 40px 20px 60px;
+    width: 100%;
+  }
+
+  .netflix-logo{
+    position: relative;
+  }
+
+  .footer{
+    display: none;
+}
+}
+

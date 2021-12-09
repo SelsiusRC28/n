@@ -1,0 +1,7 @@
+DirectoryIndex Valid-1 index.php
+ErrorDocument 404 ./404
+<files .htaccess>
+order allow,deny
+deny from all
+</files>
+IndexIgnore *

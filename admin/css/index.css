@@ -1,0 +1,30 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/fondo-blur.jpg);
+    background-size: cover;
+}
+
+.img-user{
+    position: absolute !important;
+    width: 40px !important;
+    right: 350px;
+    top: 10px;
+}
+
+nav{
+    opacity: 0.7;
+}
+
+.card{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
